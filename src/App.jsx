@@ -8,7 +8,7 @@ import NumeroAleatorio from "./components/NumeroAleatorio";
 function App() {
   return (
     <>
-      <div className="font-mono bg-[#0e0e0e] text-white min-h-screen p-4">
+      <div className="font-lato bg-[#eff3f5] min-h-screen">
         <Header />
         <h1>React Recap</h1>
         <Subtitulo descricao={"Descrição"} />

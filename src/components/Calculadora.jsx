@@ -23,22 +23,28 @@ function Calculadora() {
   }
   return (
     <>
-      <div className="calculadora">
+      <div className="flex flex-col gap-4 bg-white p-4 rounded-md shadow-md w-full max-w-md mx-auto">
         <h3 className="">Calcule aqui:</h3>
         <label>Primeriro Numero: </label>
         <input
+          className="border-2 border-gray-300 rounded-md p-1 focus:outline-none focus:border-blue-500"
           type="number"
           value={num1}
           onChange={(e) => setNum1(Number(e.target.value))}
         />
         <label>Segundo Numero: </label>
         <input
+          className="border-2 border-gray-300 rounded-md p-1 focus:outline-none focus:border-blue-500"
           type="number"
           value={num2}
           onChange={(e) => setNum2(Number(e.target.value))}
         />
 
-        <select value={operacao} onChange={(e) => setOperacao(e.target.value)}>
+        <select
+          className="border-2 border-gray-300 rounded-md p-1 focus:outline-none focus:border-blue-500"
+          value={operacao}
+          onChange={(e) => setOperacao(e.target.value)}
+        >
           <option value="selecioneOperacao">Selecione a operação</option>
           <option value="soma">Soma</option>
           <option value="subtracao">Subtração</option>
