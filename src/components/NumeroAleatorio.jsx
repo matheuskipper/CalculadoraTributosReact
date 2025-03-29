@@ -4,7 +4,7 @@ function numeroAleatorio() {
   let [numeroAleatorio, setNumeroAleatorio] = useState("");
 
   function trocarNumeroAleatorio() {
-    setNumeroAleatorio(Math.random());
+    setNumeroAleatorio(Math.random() * 10);
   }
 
   return (
