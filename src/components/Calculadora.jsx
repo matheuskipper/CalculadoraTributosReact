@@ -53,7 +53,7 @@ function Calculadora() {
         </select>
 
         <button
-          className="bg-[#666666] hover:bg-[#888888] border-none cursor-pointer text-white 
+          className="bg-[#f0ce40] hover:bg-[#d3b538] border-none cursor-pointer text-white 
           font-bold py-2 px-4 rounded"
           onClick={calcular}
           type="submit"
