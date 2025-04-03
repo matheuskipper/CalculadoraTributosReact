@@ -1,16 +1,26 @@
 function Header() {
   return (
-    <header className="bg-[#b8b7b7] text-[#252525] mb-4 top-0 w-full">
+    <header className="bg-[#b8b7b7] text-[#252525] mb-4 top-0 w-full flex p-3">
       <h4 className=" flex items-center text-left ml-15 font-[600]">
         <span>
           <img
-            width={65}
-            height={65}
-            src="https://png.pngtree.com/png-clipart/20241017/original/pngtree-online-work-logo-vector-png-image_16359071.png"
+            className="rounded-md mr-2 "
+            width={115}
+            height={115}
+            src="https://payfy.io/blog/wp-content/uploads/elementor/thumbs/184.-Plano-de-contas-contabil-qnysvgmq61n83iv3hhi1yqkw2vt7pwnk92semlxhme.webp"
           />
         </span>
         | Matheus - Contabilidade
       </h4>
+      <button
+        className="bg-[#666666] hover:bg-[#888888] cursor-pointer text-white 
+          font-bold py-1 px-2 rounded-sm ml-auto mr-8 text-[15px]"
+        onClick={() => {
+          window.open("https://github.com/matheuskipper", "_blank");
+        }}
+      >
+        Acesse meu GitHub
+      </button>
     </header>
   );
 }
