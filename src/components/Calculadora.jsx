@@ -23,7 +23,7 @@ function Calculadora() {
   }
   return (
     <>
-      <div className="flex flex-col gap-4 bg-white p-4 rounded-md shadow-md w-full max-w-md mx-auto mb-8">
+      <div className="flex flex-col gap-4 bg-white p-4 rounded-md shadow-md w-full max-w-md mx-auto mb-8 mt-8">
         <h3 className="">Calcule aqui:</h3>
         <label>Primeriro Numero: </label>
         <input

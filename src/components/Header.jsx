@@ -7,7 +7,7 @@ function Header() {
             className="rounded-md mr-2 "
             width={115}
             height={115}
-            src="https://payfy.io/blog/wp-content/uploads/elementor/thumbs/184.-Plano-de-contas-contabil-qnysvgmq61n83iv3hhi1yqkw2vt7pwnk92semlxhme.webp"
+            src="./src/images/logo.png"
           />
         </span>
         | Matheus - Contabilidade
@@ -20,6 +20,19 @@ function Header() {
         }}
       >
         Acesse meu GitHub
+      </button>
+
+      <button
+        className="bg-[#666666] hover:bg-[#888888] cursor-pointer text-white 
+          font-bold py-1 px-2 rounded-sm mr-8 text-[15px]"
+        onClick={() => {
+          window.open(
+            "https://github.com/matheuskipper?tab=repositories",
+            "_blank"
+          );
+        }}
+      >
+        Outros projetos
       </button>
     </header>
   );
