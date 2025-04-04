@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Calculadora from "./components/Calculadora";
 import Titulo from "./components/Titulo";
+import main from "./images/main.png";
 
 function App() {
   const [mostrarCalculadora, setMostrarCalculadora] = useState(false);
@@ -12,10 +13,7 @@ function App() {
       <div className="font-lato bg-[#eff3f5] min-h-screen flex flex-col justify-between items-center justify-center text-center text-[#333]">
         <Header />
         <div className="relative w-1/2 h-auto mb-8 mt-8">
-          <img
-            src="./src/images/main.png"
-            className="w-full h-auto rounded-md"
-          />
+          <img src={main} className="w-full h-auto rounded-md" />
 
           <h1>
             <Titulo />

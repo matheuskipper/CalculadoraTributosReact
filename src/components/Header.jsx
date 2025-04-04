@@ -1,3 +1,5 @@
+import logo from "/src/images/logo.png";
+
 function Header() {
   return (
     <header className="bg-[#b8b7b7] text-[#252525] mb-4 top-0 w-full flex p-3">
@@ -7,7 +9,7 @@ function Header() {
             className="rounded-md mr-2 "
             width={115}
             height={115}
-            src="./src/images/logo.png"
+            src={logo}
           />
         </span>
         | Matheus - Contabilidade
